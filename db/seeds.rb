@@ -7,8 +7,8 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 NUM_USERS = 20
 
-# Idea.delete_all
-User.destroy_all
+Ideas.delete_all
+Users.destroy_all
 
 counter = 0
 NUM_USERS.times do 
